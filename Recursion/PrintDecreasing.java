@@ -14,6 +14,7 @@ public class PrintDecreasing{
      //faith => pd(n-1)= n-1 n-2 n-3 n-4 .... 3 2 1 /pd(4) = 4321
      // E weds faith => pd(n) = n pd(n-1) /pd(5) = 5 pd(4)
      public static void PD(int n){
+          // base case after zero function should not return negative values therefor we have implemented the base case
          if(n == 0){
              return;
          }
