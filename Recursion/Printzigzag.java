@@ -12,8 +12,10 @@ public class Printzigzag {
     }
 
     // I have used euler tree to do low level thinking.
+    // expectation - pzz(3) 321112111232111211123
+    // faith - pzz(2) = 211121112
+    //exp weds faith - 3 pzz(2). 3 pzz(2). 3 
 
-    
     
     public static void zigzag(int n) {
         if(n==0){
