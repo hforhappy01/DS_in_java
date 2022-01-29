@@ -17,6 +17,9 @@ public class DisplayArray {
 // ewedsfaith => display_array(a,i)=> a[i] display_Array(a,i+1)
    
     public static void display_Array (int[] array, int i ){
+        if(i== array.length){
+            return;
+        }
         System.out.println(array[i]);
         display_Array(array, i+1);
     }
